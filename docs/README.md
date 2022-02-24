@@ -41,7 +41,7 @@ terraform {
 }
 
 module "tf_remote_state" {
-  source = "github.com/atechiethought/terraform-remote-state"
+  source = "github.com/lalitkale/terraform-remote-state"
 
   role          = "aws-ent-prod-devops"
   application   = "my-test-app"

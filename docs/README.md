@@ -1,11 +1,8 @@
-### terraform-remote-state
+# terraform-remote-state
 
 A Terraform module that configures an s3 bucket for use with Terraform's remote state feature.
 
 Useful for creating a common bucket naming convention and attaching a bucket policy using the specified role.
-
-
-
 
 ## Inputs
 
@@ -25,8 +22,7 @@ Useful for creating a common bucket naming convention and attaching a bucket pol
 |------|-------------|
 | bucket | the created bucket |
 
-
-#### usage example
+## usage example
 
 setup the remote state bucket
 
@@ -60,7 +56,7 @@ output "bucket" {
 }
 ```
 
-```
+```bash
 $ terraform init
 $ terraform apply
 
